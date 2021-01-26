@@ -1,2 +1,0 @@
-pip uninstall -y dask distributed
-pip install --upgrade dask distributed
