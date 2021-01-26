@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install build-essential cmake --yes
+
+git clone \
+    --recursive https://github.com/microsoft/LightGBM \
+    /tmp/LightGBM
+
+cd /tmp/LightGBM/python-package
+
+python setup.py install
